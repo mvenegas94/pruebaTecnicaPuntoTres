@@ -21,13 +21,15 @@ CREATE TABLE location (
  ALTER TABLE location ADD CONSTRAINT UQ_name UNIQUE (name);
  
 3. Descargar en su equipo el codigo del siguiente repositorio https://github.com/mvenegas94/pruebaTecnicaPuntoTres.git
- 
-4. Abrir el proyecto con un editor por ejemplo Visual Studio Code VSC
 
-5. Abrir 2 consolas en VSC, en la primera ejecutar el comando "npm run dev" (para ejecuar el servidor de las apis) (Ruta/puntoTres/server)
+4. Descargar en su equipo el codigo del siguiente repositorio https://github.com/mvenegas94/pruebaTecnicaPuntoTresAngular.git (y almacenarlo en una carpeta llamada "client")
+ 
+5. Abrir el proyecto con un editor por ejemplo Visual Studio Code VSC
+
+6. Abrir 2 consolas en VSC, en la primera ejecutar el comando "npm run dev" (para ejecuar el servidor de las apis) (Ruta/puntoTres/server)
 y en la segunda ejecutar el comando "ng serve" (Para desplegar la interfaz grafica) (Ruta/puntoTres/client)
 
-6. Abrir en un navegador la siguiente URL http://localhost:4200/ubicaciones
+7. Abrir en un navegador la siguiente URL http://localhost:4200/ubicaciones
 
 NOTA: Los servicios estan desarrollados en Nodejs y para la interfaz grafica se utiliza el framework Angular
 
